@@ -21,7 +21,7 @@ export default function Home() {
               <span className="block text-indigo-900 xl:inline"> Real Time Data</span>
               </h1>
               <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl">Discover details about every country around the world</p>
-              <div>
+              <div className="flex flex-col sm:flex-row sm:space-x-4">
                 <Link to="/countries" className="flex items-center justify-center px-6 py-3 text-lg text-white bg-indigo-600 rounded-md hover:bg-indigo-700">Explore Now
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
